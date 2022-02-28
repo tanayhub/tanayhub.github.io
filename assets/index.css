@@ -1,0 +1,43 @@
+.fw-lighter {
+    font-weight: 100;
+}
+
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-bold {
+    font-weight: 500;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.kaushan {
+    font-family: "Kaushan Script", cursive;
+}
+
+.crimson {
+    color: #dc143c;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.small {
+    font-size: 0.75rem;
+}
+
+.grey {
+    color: #888888;
+}
