@@ -4,12 +4,13 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="tanay,tanay ghirnikar,portfolio,developer,engineer" />
         <title>Tanay Ghirnikar | Portfolio</title>
 
         <link
             as="style"
             rel="preload"
-            href="./assets/index.css"
+            href="./assets/css/index.css"
             onload="this.onload=null;this.rel='stylesheet'"
         />
 
@@ -28,39 +29,32 @@
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
         />
 
-        <style>
-            #home {
-                display: flex;
-                min-height: 100vh;
-                align-items: center;
-                justify-content: center;
-            }
-            #navbar {
-                position: fixed;
-                left: 0;
-                bottom: 0;
-            }
-        </style>
+        <link
+            as="style"
+            rel="preload"
+            onload="this.onload=null;this.rel='stylesheet'"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        />
     </head>
-    <body class="roboto">
+    <body style="margin: 0">
         <noscript>You need enable javascript</noscript>
-        <section id="home">
-            <div style="text-align: center">
-                <p class="heading kaushan">Hey I'm <span class="crimson">Tanay</span></p>
-                <p class="sub-heading fw-light">a devops and backend engineer</p>
-                <p class="fw-light small grey">( this website is under construction )</p>
+        <section id="sidebar">
+            <hr />
+            <div class="socials">
+                <a href="https://github.com/tanayhub"><i class="bi-github"></i></a>
+                <a href="https://linkedin.com/in/tanayhub"><i class="bi-linkedin"></i></a>
+                <a href="mailto:tanay.ghirnikar@tanayhub.com"><i class="bi-chat-dots-fill"></i></a>
+                <a href="https://twitter.com/tanayhub"><i class="bi-twitter"></i></a>
+                <a href="https://instagram.com/tanayhub"><i class="bi-instagram"></i></a>
             </div>
         </section>
-        <section id="navbar" class="fw-bold" style="text-align: center; width: 100%; margin: 1rem">
-            <a class="grey" href="https://github.com/tanayhub">Github</a>
-            <span> &bull; </span>
-            <a class="grey" href="https://linkedin.com/in/tanayhub">LinkedIn</a>
-            <span> &bull; </span>
-            <a class="grey" href="mailto:tanay.ghirnikar@tanayhub.com">Contact</a>
-            <span> &bull; </span>
-            <a class="grey" href="https://instagram.com/tanayhub">Instagram</a>
-            <span> &bull; </span>
-            <a class="grey" href="https://twitter.com/tanayhub">Twitter</a>
+        <section id="canvas">
+            <div id="home">
+                <div class="heading">Hey! I'm <span class="crimson">Tanay</span></div>
+                <div class="sub-heading font-light">a devops and backend engineer</div>
+                <div class="sub-text">( this website is under construction )</div>
+            </div>
+            <hr />
         </section>
     </body>
 </html>
